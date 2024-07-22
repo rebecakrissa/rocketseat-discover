@@ -82,7 +82,7 @@ body * {
 }
 
 .light #switch button {
-  animation: slide-in o.4s forwards;
+  animation: slide-in 0.4s forwards;
 }
 
 #switch button:hover {
@@ -93,7 +93,7 @@ body * {
   display: block;
   width: 64px;
   height: 24px;
-  background: var(--surface-colo);
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -174,7 +174,7 @@ footer {
   }
 
   .light {
-    --bg-url: url(.assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 
@@ -190,9 +190,9 @@ footer {
 
 @keyframes slide-back {
   from {
-    left: 50;
+    left: 50%;
   }
   to {
-    left: 0%;
+    left: 0;
   }
 }
